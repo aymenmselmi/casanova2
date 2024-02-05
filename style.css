@@ -678,3 +678,71 @@
             .marquee-container2.active {
                 animation-play-state: running;
             }
+            
+            .box-container-10 {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                gap: 50px;
+                padding-top: 10px;
+            }
+            
+            .box-container-10 img {
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+            }
+            
+            .info-3 {
+                animation: slideInRight var(--nav-load-time) 300ms ease-in;
+                -webkit-animation: slideInRight var(--nav-load-time) 300ms ease-in;
+            }
+            
+            .info-3 p {
+                font-family: montserrat;
+                font-size: 16px;
+            }
+            
+            .info-3 h1 {
+                font-family: cormorant;
+                font-size: 42px;
+                color: #C3937C;
+            }
+            
+            .button-5 {
+                align-items: center;
+                background-clip: padding-box;
+                background-color: #fa6400;
+                border: 1px solid transparent;
+                border-radius: .25rem;
+                box-sizing: border-box;
+                color: #fff;
+                cursor: pointer;
+                display: inline-flex;
+                font-family: montserrat;
+                font-size: 16px;
+                justify-content: center;
+                line-height: 1.25;
+                min-height: 3rem;
+                text-decoration: none;
+                transition: all 250ms;
+                width: 250px;
+            }
+            
+            .button-5:hover,
+            .button-5:focus {
+                background-color: #fb8332;
+                box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+            }
+            
+            .button-5:hover {
+                transform: translateY(-1px);
+            }
+            
+            .button-5:active {
+                background-color: #c85000;
+                box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+                transform: translateY(0);
+            }
